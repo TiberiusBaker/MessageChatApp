@@ -1,0 +1,15 @@
+{
+  "name": "messagechatapp",
+  "version": "1.0.0",
+  "description": "This will be a simple messaging app available through a website and an app.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
