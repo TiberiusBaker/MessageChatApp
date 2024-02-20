@@ -7,6 +7,16 @@ terraform {
     }
 }
 
+locals {
+    postgres_identifier    = POSTGRES_IDENTIFIER
+    postgres_name          = POSTGRES_DB_NAME
+    postgres_user_name     = POSTGRES_USERNAME
+    postgres_user_password = POSTGRES_PASSWORD
+    postgres_instance_name = POSTGRES_DB_INSTANCE_NAME
+    postgres_db_password   = POSTGRES_DB_PASSWORD
+    postgres_port          = POSTGRES_PORT
+}
+
 //Create postgresql database in aws rds
 provider "aws" {
     profile = "Main"
